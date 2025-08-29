@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3 js:thinking</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Thinking in code:js</h1>
+      <h2>Day 3 Task</h2>
+    </div>
+    <script>
+      function calculateGrade(score) {
+        if (score >= 90 && score <= 100) {
+          return "A";
+        } else if (score >= 80) {
+          return "B";
+        } else if (score >= 70) {
+          return "C";
+        } else if (score >= 60) {
+          return "D";
+        } else if (score >= 0) {
+          return "F";
+        } else {
+          return "invalid score";
+        }
+      }
+      console.log(calculateGrade(97));
+      console.log(calculateGrade(10));
+      console.log(calculateGrade(87));
+      console.log(calculateGrade(77));
+      console.log(calculateGrade(67));
+      console.log(calculateGrade(57));
+      console.log(calculateGrade(37));
+    </script>
+  </body>
+</html>
