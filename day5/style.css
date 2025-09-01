@@ -1,0 +1,122 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(105deg, #0b72a2, #d6f6f5);
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-left: 140px;
+  margin-right: 140px;
+  transition: background 0.3s, color 0.3s;
+}
+.togglebtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 15px;
+  border: 4px solid black;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #e8d9a8, #a9eeec);
+  color: rgb(7, 6, 6);
+  font-weight: bolder;
+  font-family: cursive;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.togglebtn i {
+  padding-right: 3px;
+  color: #000000;
+}
+.togglebtn:hover {
+  background: #68e6e8;
+}
+.card {
+  background: linear-gradient(135deg, #75f8d3, #5da09e, #00b997);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 34px 112px #03caf2;
+}
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 40%;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
+.info h1 {
+  font-family: cursive;
+  margin: 0;
+  color: #000000;
+}
+.info h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px 0 15px;
+  line-height: 0.5;
+  font-size: 1.4rem;
+  color: #2c2525;
+}
+.info p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+}
+.social {
+  margin-top: 15px;
+}
+.social a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: 0.3s;
+  border: none;
+}
+.social i {
+  padding-right: 2px;
+}
+.social a:hover {
+  color: #0202fa;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #ffffff;
+}
+.dark-mode .card {
+  background: #1e1e1e;
+  color: #f7f7f7;
+  box-shadow: 0 14px 72px rgba(211, 211, 211, 0.1);
+}
+.dark-mode .card h1 {
+  color: white;
+}
+.dark-mode .card h2 {
+  color: rgb(119, 116, 116);
+}
+.dark-mode .card p {
+  color: rgb(175, 243, 252);
+}
+.dark-mode .card img {
+  border: 2px solid rgba(48, 1, 10, 0.522);
+  height: 130px;
+  width: 140px;
+}
+.dark-mode .social a {
+  color: #0080ff;
+}
+
+.dark-mode .social a:hover {
+  color: #eabcbc;
+}
+.dark-mode .togglebtn {
+  background: #0386f0;
+}
+
+.dark-mode .togglebtn:hover {
+  background: #0386f0;
+}
